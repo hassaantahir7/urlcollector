@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Clickable Links</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <input type="text" id="urlInput" placeholder="Enter URL">
+      <button id="addButton">Add Link</button>
+    </div>
+    <div class="links-container">
+      <div class="links-table">
+        <h2>Added URLs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>URL ID</th>
+              <th>Actual URL</th>
+              <th>URL Status</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="linksTableBody">
+            <!-- Table rows will be dynamically generated here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="clicked-links-table">
+        <h2>Clicked Links</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Clicked URL</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="clickedLinksTableBody">
+            <!-- Clicked links will be dynamically generated here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+   <!--  <button id="resetButton">Reset Links</button>-->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

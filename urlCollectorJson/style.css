@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #addButton
+  {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: blueviolet;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  #urlInput
+  {
+    padding: 0.4rem;
+    width: 200px;
+    font-size: 14px;
+  }
+  #resetButton
+  {
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #514ee4;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    width: 70%;
+    padding: 5px;
+  }
+  
+  form button {
+    padding: 5px 10px;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+  }
+  
+  .links-table, .clicked-links-table {
+    flex: 1;
+    max-width: 48%;
+  }
+  
+  .clicked-links-table {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+  }
+  
+  .clicked-links-table h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .status.used {
+    color: green;
+  }
+  
+  .deleteButton {
+    background-color: #dc4949;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
